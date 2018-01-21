@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+
+    <record model="ir.ui.view" id="stock_picking_form_view_inh">
+        <field name="name">stock.picking.form.view.inh</field>
+        <field name="model">stock.picking</field>
+        <field name="inherit_id" ref="stock.view_picking_form"/>
+        <field name="arch" type="xml">
+            <button name="action_assign" position="attributes">
+                <attribute name="states">confirmed,waiting,assigned</attribute>
+            </button>
+        </field>
+    </record>
+
+</odoo>

@@ -15,6 +15,7 @@
     ],
     'data': [
         'views/stock_picking_type_view.xml',
+        'views/stock_picking_inh.xml',
         'wizards/stock_backorder_confirmation.xml',
     ],
     'installable': True,

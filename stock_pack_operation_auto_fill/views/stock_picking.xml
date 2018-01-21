@@ -18,6 +18,9 @@
                         help="This button will automatically fill all operations that have no tracking set on the product, no processed qty and no selected package."/>
                 <field name="action_pack_op_auto_fill_allowed" invisible="1"/>
             </button>
+            <xpath expr="//button[@string='Reserve']" position="attributes">
+                <attribute name="states">confirmed,waiting,assigned</attribute>
+            </xpath>sdfasdgagahgarhs879685  ethej
         </field>
     </record>
 
